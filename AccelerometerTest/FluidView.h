@@ -11,4 +11,5 @@
 @interface FluidView : UIView
 @property (nonatomic) CGFloat xAcceleration;
 @property (nonatomic) CGFloat yAcceleration;
+
 @end

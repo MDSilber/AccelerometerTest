@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CD7EC682-3F7D-441E-B0EC-887D09DD8C68</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AccelerometerTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3E1CBE8E-8855-40D5-83C8-16DB70B24CB4</key>
+		<string>ssh://github.com/MDSilber/AccelerometerTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AccelerometerTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3E1CBE8E-8855-40D5-83C8-16DB70B24CB4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/MDSilber/AccelerometerTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3E1CBE8E-8855-40D5-83C8-16DB70B24CB4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3E1CBE8E-8855-40D5-83C8-16DB70B24CB4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AccelerometerTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
