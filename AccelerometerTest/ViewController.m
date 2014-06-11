@@ -11,7 +11,7 @@
 
 @interface ViewController ()
 @property (nonatomic) CMMotionManager *motionManager;
-@property (nonatomic) UIView *block;
+@property (nonatomic) UIView *containerView;
 @property (nonatomic) UIView *fluidView;
 
 @property (nonatomic) UIGravityBehavior *gravityBehavior;
@@ -27,24 +27,24 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-    self.block = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 100.0f, 100.0f)];
-    self.block.center = self.view.center;
-    self.block.backgroundColor = [UIColor clearColor];
-    self.block.layer.borderColor = [UIColor blackColor].CGColor;
-    self.block.layer.borderWidth = 2.0f;
-    self.block.clipsToBounds = YES;
-    [self.view addSubview:self.block];
+    self.containerView = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 100.0f, 100.0f)];
+    self.containerView.center = self.view.center;
+    self.containerView.backgroundColor = [UIColor clearColor];
+    self.containerView.layer.borderColor = [UIColor blackColor].CGColor;
+    self.containerView.layer.borderWidth = 2.0f;
+    self.containerView.clipsToBounds = YES;
+    [self.view addSubview:self.containerView];
 
     self.fluidView = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 300.0f, 300.0f)];
     self.fluidView.backgroundColor = [UIColor colorWithRed:212.0f/255.0f green:151.0f/255.0f blue:76.0f/255.0f alpha:1.0f];
     self.fluidView.center = CGPointMake(50.0f, 200.0f);
-    [self.block addSubview:self.fluidView];
+    [self.containerView addSubview:self.fluidView];
 
-    self.animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.block];
+    self.animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.containerView];
 
     self.gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[self.fluidView]];
 
-    self.attachmentBehavior = [[UIAttachmentBehavior alloc] initWithItem:self.fluidView offsetFromCenter:UIOffsetMake(0.0f, -1.0f * CGRectGetHeight(self.fluidView.frame) / 2.0f) attachedToAnchor:CGPointMake(CGRectGetWidth(self.block.frame) / 2.0f, (CGRectGetHeight(self.block.frame) / 2.0f) - 10.0f)];
+    self.attachmentBehavior = [[UIAttachmentBehavior alloc] initWithItem:self.fluidView offsetFromCenter:UIOffsetMake(0.0f, -1.0f * CGRectGetHeight(self.fluidView.frame) / 2.0f) attachedToAnchor:CGPointMake(CGRectGetWidth(self.containerView.frame) / 2.0f, (CGRectGetHeight(self.containerView.frame) / 2.0f) - 10.0f)];
     self.attachmentBehavior.length = 10.0f;
     self.attachmentBehavior.damping = 0.5f;
 
