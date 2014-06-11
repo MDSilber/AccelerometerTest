@@ -21,7 +21,6 @@
 		28E3F661193A3EC400703757 /* AccelerometerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3F660193A3EC400703757 /* AccelerometerTestTests.m */; };
 		28E3F66C193A3ED100703757 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3F66B193A3ED100703757 /* ViewController.m */; };
 		28E3F66E193A3F7400703757 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E3F66D193A3F7400703757 /* CoreMotion.framework */; };
-		28E3F6A919452D6400703757 /* FluidView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3F6A819452D6400703757 /* FluidView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +53,6 @@
 		28E3F66A193A3ED100703757 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		28E3F66B193A3ED100703757 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		28E3F66D193A3F7400703757 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		28E3F6A719452D6400703757 /* FluidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidView.h; sourceTree = "<group>"; };
-		28E3F6A819452D6400703757 /* FluidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +116,6 @@
 			children = (
 				28E3F64A193A3EC400703757 /* AppDelegate.h */,
 				28E3F64B193A3EC400703757 /* AppDelegate.m */,
-				28E3F6A719452D6400703757 /* FluidView.h */,
-				28E3F6A819452D6400703757 /* FluidView.m */,
 				28E3F66A193A3ED100703757 /* ViewController.h */,
 				28E3F66B193A3ED100703757 /* ViewController.m */,
 				28E3F64D193A3EC400703757 /* Images.xcassets */,
@@ -253,7 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E3F6A919452D6400703757 /* FluidView.m in Sources */,
 				28E3F66C193A3ED100703757 /* ViewController.m in Sources */,
 				28E3F64C193A3EC400703757 /* AppDelegate.m in Sources */,
 				28E3F648193A3EC400703757 /* main.m in Sources */,
@@ -453,6 +447,7 @@
 				28E3F666193A3EC400703757 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28E3F667193A3EC400703757 /* Build configuration list for PBXNativeTarget "AccelerometerTestTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +456,7 @@
 				28E3F669193A3EC400703757 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
