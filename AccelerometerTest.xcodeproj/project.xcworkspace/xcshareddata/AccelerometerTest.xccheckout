@@ -10,29 +10,29 @@
 	<string>AccelerometerTest</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3E1CBE8E-8855-40D5-83C8-16DB70B24CB4</key>
+		<key>C4DC73263117745659DD6E7AB491600F5033DA2B</key>
 		<string>ssh://github.com/MDSilber/AccelerometerTest.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>AccelerometerTest.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3E1CBE8E-8855-40D5-83C8-16DB70B24CB4</key>
+		<key>C4DC73263117745659DD6E7AB491600F5033DA2B</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/MDSilber/AccelerometerTest.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3E1CBE8E-8855-40D5-83C8-16DB70B24CB4</string>
+	<string>C4DC73263117745659DD6E7AB491600F5033DA2B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3E1CBE8E-8855-40D5-83C8-16DB70B24CB4</string>
+			<string>C4DC73263117745659DD6E7AB491600F5033DA2B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>AccelerometerTest</string>
 		</dict>
